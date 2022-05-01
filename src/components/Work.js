@@ -1,8 +1,9 @@
 import React from 'react';
+import './css/Home.css';
 const Work = () => {
   return (
-    <div>
-      <h1>work</h1>
+    <div className='homeContainer'>
+      <h1>Work</h1>
     </div>
   )
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import './css/Home.css';
 const Contact = () => {
   return (
-    <div>
-      <h1>contact</h1>
+    <div className='homeContainer'>
+      <h1>Contact</h1>
     </div>
   )
 }
