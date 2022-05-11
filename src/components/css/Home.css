@@ -4,21 +4,20 @@
     font-size:xx-large;
     top: auto;
     width: 100%;
-    height: 15%;
+    height: 100%;
     display: flex;
     background-color: white;
     justify-content: space-between;
     align-items: center;
     padding: 0% 10%;
 }
+.homeTextDescription{
 
-.homeDescription {
-    
 }
 
-.homeTextDescription {
+.headerMock {
+    padding: 4%;
 }
-
 .homeCharacter {
     padding: 5%;
 }
@@ -41,4 +40,61 @@ button{
 button:hover{
   color: white;
     background-color: #8cd396;
+}
+
+@media screen and (max-width: 1920px) {
+    .homeContainer {
+        font-size:x-large;
+    }
+    .homeCharacter {
+        width: 30%;
+    }
+    button{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .homeContainer {
+        font-size:x-large;
+    }
+    .homeDescription{
+        margin: 15% 0%;
+    }
+    button{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .homeContainer {
+        font-size:large;
+    }
+    .homeDescription{
+        margin: 10% 0%;
+    }
+    button{
+        font-size: 16px;
+    }
+    .headerMock {
+        padding: 8%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .homeCharacter {
+        display: none;
+    }
+    button{
+        font-size: 14px;
+    }
+    .headerMock {
+        padding: 12%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homeContainer {
+        font-size:medium;
+    }
+    .headerMock {
+        padding: 14%;
+    }
 }

@@ -1,12 +1,15 @@
 import React from 'react';
 import './css/Home.css'
 import char from './images/char1.gif'
+import logo from './images/NA.png'
 import { saveAs } from "file-saver";
 const Home = () => {
   const saveFile = () => {
     saveAs("NataliiaArsenieva_CV.pdf");
   };
   return (
+    <div>
+    <div className='headerMock'></div>
     <div className='homeContainer'>
       <div className='homeDescription'>
         <h1 className='homeTextDescription'>Hi, <br/>I'm Nataliia Arsenieva, a<br/>creative 
@@ -14,9 +17,8 @@ const Home = () => {
         <button onClick={saveFile}>Download CV</button>
       </div>
       <img className='homeCharacter' src={char}></img>
-      
     </div>
-    
+    </div>
   )
 }
 export default Home

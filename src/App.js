@@ -27,15 +27,15 @@ function App() {
         <img className='logo' src={logo} alt='logo'></img>
         <nav>
             <ul className='nav_links'>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>My Work</a></li>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#work'>My Work</a></li>
                 <li><a href='#'>About Me</a></li>
                 <li><a href='#'>Contact Me</a></li>
             </ul>
         </nav>
         </header>
-      <Home></Home>
-        
+      <div id="home"><Home ></Home></div>
+      <div id="work"><Work></Work></div>
       </div>
     }
     </div>
