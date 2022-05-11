@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/Home.css'
 import char from './images/char1.gif'
-import logo from './images/NA.png'
 import { saveAs } from "file-saver";
 const Home = () => {
   const saveFile = () => {

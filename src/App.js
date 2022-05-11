@@ -29,7 +29,7 @@ function App() {
             <ul className='nav_links'>
                 <li><a href='#home'>Home</a></li>
                 <li><a href='#work'>My Work</a></li>
-                <li><a href='#'>About Me</a></li>
+                <li><a href='#about'>About Me</a></li>
                 <li><a href='#'>Contact Me</a></li>
             </ul>
         </nav>
