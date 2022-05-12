@@ -36,6 +36,8 @@ function App() {
         </header>
       <div id="home"><Home ></Home></div>
       <div id="work"><Work></Work></div>
+      <div id="about"><About></About></div>
+      <div id="about"><About></About></div>
       </div>
     }
     </div>

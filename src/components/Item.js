@@ -1,12 +1,17 @@
 import styled from "styled-components";
-
-export default styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  background-color: #00008B;
-  color: #fff;
-  margin: 0 15px;
-`;
+import './css/Item.css'
+const Item = ({title, desc, img1, img2}) => {
+return (
+  <div className='itemContainer'>
+    <div className="textContainer">
+      <h1>{title}</h1>
+      <h3>{desc}</h3>
+    </div>
+    <div className="imageContainer">
+      <img className='box' src={img1}></img>
+      <img className='box overlay' src={img2}></img>
+    </div>
+  </div>
+  )
+}
+export default Item;

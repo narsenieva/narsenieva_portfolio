@@ -1,0 +1,39 @@
+.itemComponent {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.itemContainer {
+    border:1px solid red;
+    font-size:x-large;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 10%;
+  }
+.textContainer {
+    border:1px solid black;
+    width: 40%;
+}
+.imageContainer {
+    border:1px solid black;
+    width: 500px;
+    height: 600px;
+    position: relative;
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #0057e3;
+  }
+  
+  .overlay {
+    z-index: 3;
+    margin: 80% 50%;
+    background: #009938;
+  }
